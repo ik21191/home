@@ -1,3 +1,14 @@
+.gitignore
+```
+.idea
+*.gitignore
+*.project
+**/target/**
+web-service/.settings**
+web-service/.classpath
+web-service/.factorypath
+```
+
 Manually  kill Tomcat Process from Command line
 Go to (Open) Command Prompt (Press Window + R then type cmd Run this).
 Run following commands to get all listening ports (If tomcat runnig on other ports apart from 8080)
